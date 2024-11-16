@@ -93,3 +93,24 @@ body {
     color: rgb(233, 30, 57);
 
 }
+
+@media (max-width: 768px) {
+    #container {
+        width: 100%;
+    }
+    #about {
+        font-size: 1.4em;
+    }
+
+    #title{
+        font-size: 1.8em;
+    }
+    #container2 {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+}
